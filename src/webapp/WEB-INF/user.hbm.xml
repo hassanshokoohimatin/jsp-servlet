@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<hibernate-mapping xmlns="http://www.hibernate.org/xsd/hibernate-mapping">
+
+<class name="model.User" table="user">
+    <id name="id">
+        <generator class="identity"></generator>
+    </id>
+    <property name="firstName"></property>
+    <property name="lastName"></property>
+    <property name="mobile"></property>
+    <property name="nationalCode"></property>
+</class>
+
+</hibernate-mapping>
