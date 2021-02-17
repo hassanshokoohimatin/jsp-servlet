@@ -12,7 +12,11 @@
         <property name="hibernate.hbm2ddl.auto">update</property>
         <property name="hibernate.connection.autocommit">true</property>
 
-        <mapping resource="webapp/WEB-INF/user.hbm.xml"></mapping>
+        <mapping resource="main.webapp/WEB-INF/user.hbm.xml"></mapping>
 
     </session-factory>
 </hibernate-configuration>
+
+
+
+

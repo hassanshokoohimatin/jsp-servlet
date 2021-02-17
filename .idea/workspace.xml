@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="jspservlet:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b5ce1b89-039c-4bbf-86da-a9772a5ba7b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/service/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/CrudRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/CrudRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/HibernateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/HibernateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webapp/WEB-INF/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webapp/WEB-INF/user.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/user.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/webapp/index.jsp" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,11 +28,19 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -67,7 +87,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1613567384488</updated>
-      <workItem from="1613567386046" duration="2768000" />
+      <workItem from="1613567386046" duration="8286000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1613568791543</created>
@@ -90,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613569950679</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="user repository added">
+      <created>1613570377693</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1613570377693</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,6 +139,7 @@
     <MESSAGE value="model created" />
     <MESSAGE value="crud repository and hibernate util added" />
     <MESSAGE value="hibernate config added" />
-    <option name="LAST_COMMIT_MESSAGE" value="hibernate config added" />
+    <MESSAGE value="user repository added" />
+    <option name="LAST_COMMIT_MESSAGE" value="user repository added" />
   </component>
 </project>

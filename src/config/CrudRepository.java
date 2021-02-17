@@ -7,14 +7,10 @@ import org.hibernate.query.Query;
 import java.util.List;
 
 public abstract class CrudRepository<Entity> {
-
     private Session getSession(){
         return HibernateUtil.getSession();
     }
-
     protected abstract Class<Entity> getEntityClass();
-
-
     //CRUD
 
     //C: Create (save)
@@ -23,7 +19,6 @@ public abstract class CrudRepository<Entity> {
         getSession().save(entity);
         getSession().getTransaction().commit();
     }
-
     //R: Read (get)
     public Entity findById(int id){
         getSession().beginTransaction();
@@ -31,7 +26,6 @@ public abstract class CrudRepository<Entity> {
         getSession().getTransaction().commit();
         return entity;
     }
-
     //U: Update
     public Entity update(Entity entity){
         getSession().beginTransaction();
@@ -39,7 +33,6 @@ public abstract class CrudRepository<Entity> {
         getSession().getTransaction().commit();
         return entity;
     }
-
     //D: Delete (remove)
     public void remove(Entity entity){
         getSession().beginTransaction();
@@ -58,7 +51,6 @@ public abstract class CrudRepository<Entity> {
         getSession().getTransaction().commit();
         return entities;
     }
-
     //find all records between two rows
     public List<Entity> findAll(int from, int to){
         getSession().beginTransaction();
@@ -70,7 +62,6 @@ public abstract class CrudRepository<Entity> {
         getSession().getTransaction().commit();
         return entities;
     }
-
     //remove an entity by id
     public void removeById(int id){
         Entity entity = findById(id);
@@ -81,3 +72,4 @@ public abstract class CrudRepository<Entity> {
         }
     }
 }
+

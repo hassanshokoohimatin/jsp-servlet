@@ -12,7 +12,7 @@ public class HibernateUtil {
 
     static {
         sessionFactory = new Configuration()
-                .configure("webapp/WEB-INF/hibernate.cfg.xml")
+                .configure("main/webapp/WEB-INF/hibernate.cfg.xml")
                 .buildSessionFactory();
         session = sessionFactory.openSession();
     }
@@ -21,3 +21,5 @@ public class HibernateUtil {
         return session;
     }
 }
+
+
